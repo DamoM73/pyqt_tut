@@ -202,13 +202,3 @@ class Ui_MainWindow(object):
         self.zero_btn.setText(_translate("MainWindow", "0"))
         self.decimal_btn.setText(_translate("MainWindow", "."))
         self.equals_btn.setText(_translate("MainWindow", "="))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec())
